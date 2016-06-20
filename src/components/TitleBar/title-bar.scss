@@ -1,0 +1,34 @@
+@import "styles/mixin";
+@import "styles/var.scss";
+
+.titleBar {
+    padding: 0 60px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.nav {
+    @include non-selectable();
+    width: 100%;
+    height: $nav-h;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.navTab {
+    list-style-type: none;
+    float: left;
+    margin-right: 40px;
+    height: $nav-h;
+    text-align: center;
+    line-height: $nav-h + 4px;
+    color: $text-color-dark;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    @include clickable();
+}

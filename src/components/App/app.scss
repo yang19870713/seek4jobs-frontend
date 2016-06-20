@@ -1,0 +1,29 @@
+@import "styles/var.scss";
+
+.app {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.workspace {
+    width: 100%;
+    height: $workspace-h;
+    position: absolute;
+    left: 0;
+    top: $nav-h + $ads-h;
+    .searchBox {
+        position: absolute;
+        top: 0;
+        left: 60px;
+    }
+}
+
+.banner {
+    height: 370px;
+    padding: 10px 0;
+    background: url("./images/sydney.png");
+    background-position: right;
+    background-repeat:  repeat-x;
+}
