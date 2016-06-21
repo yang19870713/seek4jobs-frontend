@@ -7,7 +7,7 @@ $input-height: 60px;
 
 .searchBox {
     width: $input-length + $x-padding *2;
-    height: $workspace-h - $y-padding*2;
+    height: $workspace-h;
     background-color: $theme-color-trans;
     padding: $y-padding 0;
     position: absolute;

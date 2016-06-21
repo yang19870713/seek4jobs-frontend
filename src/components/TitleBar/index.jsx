@@ -1,9 +1,10 @@
 import style from "./title-bar.scss";
+import classnames from "utils/classnames";
 
 export default class TitleBar extends React.Component{
     render() {
         return (
-            <div className={style.titleBar}>
+            <div className="container">
                 <ul className={style.nav}>
                     <li className={style.navTab}>
                         <i className="fa fa-line-chart"></i>

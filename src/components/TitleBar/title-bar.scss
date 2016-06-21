@@ -1,22 +1,12 @@
 @import "styles/mixin";
 @import "styles/var.scss";
 
-.titleBar {
-    padding: 0 60px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-
-}
-
 .nav {
     @include non-selectable();
     width: 100%;
     height: $nav-h;
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 0 0 0 60px;
 }
 
 .navTab {
