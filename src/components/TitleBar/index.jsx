@@ -7,6 +7,9 @@ export default class TitleBar extends React.Component{
             <div className="container">
                 <ul className={style.nav}>
                     <li className={style.navTab}>
+                        Home
+                    </li>
+                    <li className={style.navTab}>
                         <i className="fa fa-line-chart"></i>
                         {" "}Area trend
                     </li>

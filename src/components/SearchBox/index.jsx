@@ -16,7 +16,9 @@ export default class SearchBox extends React.Component {
                         className={style.input}
                         placeholder="Period"/>
                 <input className={style.submit}
-                    type="submit" value="Submit"/>
+                    type="submit" value="Search"/>
+                {/*<input className={style.submit}
+                    type="submit" value="Search"/>*/}
             </form>
         );
     }

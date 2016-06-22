@@ -2,19 +2,19 @@
 
 $x-padding: 30px;
 $y-padding: 20px;
-$input-length: 280px;
+$input-length: 240px;
 $input-height: 60px;
 
 .searchBox {
     width: $input-length + $x-padding *2;
     height: $workspace-h;
-    background-color: $theme-color-trans;
     padding: $y-padding 0;
     position: absolute;
 }
 
 .input, .submit {
     width: $input-length;
+
     height: $input-height;
     font-size: $input-height * 0.4;
     color: white;
@@ -23,13 +23,13 @@ $input-height: 60px;
 .input {
     margin: 0;
     padding: 0;
-    margin: 12px $x-padding;
+    margin: 12px 0;
     border-width: 0 0 1px 0;
     border-bottom-style: solid;
     border-bottom-color: white;
     line-height: $input-height;
     text-indent: .5em;
-    background-color: $theme-color-light-trans;
+    background-color: $theme-color-input;
 
     &:focus {
       //border-color: $active-color;
@@ -39,12 +39,13 @@ $input-height: 60px;
 }
 
 .submit {
+    width:240px;
     position: absolute;
-    left: $x-padding;
+    left: 0;
     bottom: 30px;
     border-width: 0;
     border-radius: 10px;
-    background-color: #F6B422;
+    background-color: $theme-color-btn;
 }
 
 .input::-webkit-input-placeholder {

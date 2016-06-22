@@ -8,16 +8,24 @@ import classnames from "utils/classnames";
 export default class App extends React.Component {
     render(){
         return (
-            <div className={style.navbar}>
-                <TitleBar />
-            <div className="container">
-                <Ads />
-                <div className={style.workspace}>
-                    <div className={style.searchBox}>
-                        <SearchBox />
-                    </div>
+            <div>
+                <div className={style.navbar}>
+                    <TitleBar />
                 </div>
-            </div>
+                <section className={style.banner}>
+                    <div className="container">
+                        <Ads />
+                    </div>
+                </section>
+                <section className={style.workspace}>
+                    <div className="container">
+                        <div >
+                            <div className={style.searchBox}>
+                                <SearchBox />
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         );
     }

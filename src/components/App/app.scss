@@ -1,16 +1,16 @@
 @import "styles/var.scss";
 
 .navbar {
-    background-color: white;
+    background-color: $bg-color;
     height: $nav-h;
 }
+
 
 .workspace {
     height: $workspace-h;
     .searchBox {
         margin-left: 60px;
     }
-    background: url("./images/sydney.png");
-    background-position: right;
-    background-repeat:  repeat-x;
+    //background-color: $theme-color;
+    background: url("./images/banner.png");
 }
