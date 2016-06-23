@@ -8,9 +8,8 @@
 
 .workspace {
     height: $workspace-h;
-    .searchBox {
-        margin-left: 60px;
-    }
-    //background-color: $theme-color;
     background: url("./images/banner.png");
+    .inner {
+        padding: 0 60px;
+    }
 }

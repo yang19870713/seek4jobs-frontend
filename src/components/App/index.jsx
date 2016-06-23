@@ -12,17 +12,10 @@ export default class App extends React.Component {
                 <div className={style.navbar}>
                     <TitleBar />
                 </div>
-                <section className={style.banner}>
-                    <div className="container">
-                        <Ads />
-                    </div>
-                </section>
                 <section className={style.workspace}>
                     <div className="container">
-                        <div >
-                            <div className={style.searchBox}>
-                                <SearchBox />
-                            </div>
+                        <div className={style.inner}>
+                            <SearchBox />
                         </div>
                     </div>
                 </section>
